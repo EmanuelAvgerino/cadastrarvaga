@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cadastrar Nova Vaga</title>
+  <link rel="stylesheet" href="/Css/style.css">
+</head>
+<body>
+  <div class="container">
+    <aside class="sidebar">
+      <div class="logo">#LOGO#</div>
+      <nav class="menu">
+        <a href="#">Início</a>
+        <a href="#">Sobre</a>
+        <a href="#">FAQ</a>
+      </nav>
+    </aside>
+
+    <main class="form-container">
+      <div class="header">
+        <h1>Cadastrar Nova Vaga</h1>
+        <button class="btn-empresa">Sou Empresa</button>
+      </div>
+
+      <form class="job-form">
+        <label for="titulo">Título da Vaga</label>
+        <input type="text" id="titulo">
+
+        <label for="area">Área de Atuação</label>
+        <select id="area">
+          <option>Selecione</option>
+        </select>
+
+        <label for="contrato">Tipo de Contrato</label>
+        <select id="contrato">
+          <option>Selecione</option>
+        </select>
+
+        <label for="salario">Faixa Salarial</label>
+        <input type="text" id="salario">
+
+        <label for="descricao">Descrição da Vaga</label>
+        <textarea id="descricao" rows="4"></textarea>
+
+        <label for="requisitos">Requisitos</label>
+        <input type="text" id="requisitos">
+
+        <label for="beneficios">Benefícios</label>
+        <input type="text" id="beneficios">
+
+        <div class="buttons">
+          <button type="submit" class="btn-salvar">Salvar Vaga</button>
+          <button type="button" class="btn-cancelar">Cancelar</button>
+        </div>
+      </form>
+    </main>
+  </div>
+</body>
+</html>
